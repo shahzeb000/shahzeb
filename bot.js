@@ -109,8 +109,8 @@ const sendChannelsRequiredMessage = async (chatId) => {
       reply_markup: {
         inline_keyboard: [
           [{ text: '📢 Channel 1', url: 'https://t.me/shahzebinfozone3' }],
-          [{ text: '📢 Channel 2', url: 'https://t.me/shahzebinfozone3' }],
-          [{ text: '👥 Group', url: 'https://t.me/shahzebinfozone3' }],
+          [{ text: '📢 Channel 2', url: 'https://t.me/infozonehelping' }],
+          [{ text: '👥 Group', url: 'https://t.me/infozonechatting' }],
           [{ text: '✅ I have joined', callback_data: 'check_join' }]
         ]
       }
